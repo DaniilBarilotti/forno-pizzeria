@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#d83b25">
+<meta name="description" content="FORNO — Neapolitanische Pizza, 48 Stunden Teigruhe und echtes Holzfeuer. Ein Restaurantkonzept.">
+<title>FORNO — Pizza und ein bisschen Feuer</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23d83b25'/%3E%3Ctext x='8' y='25' font-size='27' font-family='Georgia' font-weight='bold' fill='%23fff7e8'%3Ef%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script src="translations.js" defer></script>
+<script src="app.js" defer>
+</script>
+</head>
+<body>
+<a class="skip" href="#menu">Zur Speisekarte</a>
+<div class="announcement">NEAPOLITANISCHES HERZ. UNSER EIGENER RHYTHMUS. <span>EST. 2026</span>
+</div>
+<header>
+<a href="#" class="logo" aria-label="FORNO — Startseite">forno<span>®</span>
+</a>
+<nav aria-label="Hauptnavigation">
+<a href="#menu">Speisekarte</a>
+<a href="#story">Unsere Küche</a>
+<a href="#visit">Am Tisch</a>
+</nav>
+<div class="language-switch" role="group" aria-label="Sprache"><button type="button" data-lang="de" aria-pressed="true">DE</button><span aria-hidden="true">/</span><button type="button" data-lang="en" aria-pressed="false">EN</button></div>
+<a class="nav-cta" href="#menu">Pizza entdecken <span>↗</span>
+</a>
+</header>
+<main>
+<section class="hero">
+<div class="hero-copy">
+<div class="eyebrow">
+<span>PIZZA. MENSCHEN. GUTE ABENDE.</span>
+<span>01 / CIAO!</span>
+</div>
+<h1>Es beginnt<br>mit <em>Feuer.</em>
+</h1>
+<p>Mit Teig, der Zeit bekommen hat.<br>Mit sonnengereiften Tomaten.<br>Und Menschen, mit denen man das letzte Stück teilt.</p>
+<a class="button dark" href="#menu">Speisekarte ansehen <span>↗</span>
+</a>
+<div class="hero-bottom">
+<span>48 Stunden Geduld.<br>90 Sekunden im Ofen.</span>
+<span class="tiny-mark">FATTO<br>CON AMORE</span>
+</div>
+</div>
+<div class="hero-image">
+<img src="pizza.jpg" alt="Neapolitanische Pizza mit luftigem Rand, Mozzarella und frischem Basilikum" fetchpriority="high" width="1600" height="1067">
+<div class="photo-label">LA VERA PIZZA NAPOLETANA</div>
+<div class="roundel">480°<small>ECHTES HOLZFEUER</small>
+</div>
+<span class="photo-caption">Ein dunkler Rand. Unsere Handschrift.</span>
+</div>
+</section>
+<div class="ticker" aria-label="48 Stunden Teigruhe, Holzofen, mit den Händen essen">
+<span>48 STUNDEN TEIGRUHE</span>
+<b aria-hidden="true">✳</b>
+<span>AUS DEM HOLZOFEN</span>
+<b aria-hidden="true">✳</b>
+<span>MIT DEN HÄNDEN ESSEN</span>
+<b aria-hidden="true">✳</b>
+<span>AMORE, SEMPRE</span>
+<b aria-hidden="true">✳</b>
+</div>
+<section id="menu" class="menu section">
+<div class="section-head">
+<div>
+<span class="eyebrow">02 / IL MENU</span>
+<h2>Eine runde Sache.</h2>
+</div>
+<p>Sechs Pizzen. Jede Zutat hat ihren Platz.<br>Alle 30 cm. Zum Teilen. Oder auch nicht.</p>
+</div>
+<div class="menu-intro">
+<span>AUS DEM OFEN, MIT LIEBE</span>
+<span>Aufklappen: Zutaten & Allergene</span>
+</div>
+<div class="menu-grid">
+<details class="pizza" open>
+<summary>
+<span class="number">01</span>
+<span class="pizza-name">Margherita <i>CLASSICA</i>
+<small>Der Klassiker. Ganz ohne Umwege.</small>
+</span>
+<span class="price">11,50 €</span>
+<span class="toggle" aria-hidden="true">+</span>
+</summary>
+<div class="ingredients">Tomaten, Fior di Latte, frisches Basilikum, natives Olivenöl extra.<span>Ohne Fleisch · 360 g<br>Allergene: Weizen, Milch.</span>
+</div>
+</details>
+<details class="pizza">
+<summary>
+<span class="number">02</span>
+<span class="pizza-name">Diavola <i>PICCANTE</i>
+<small>Mit Charakter. Und etwas Schärfe.</small>
+</span>
+<span class="price">14,50 €</span>
+<span class="toggle" aria-hidden="true">+</span>
+</summary>
+<div class="ingredients">Tomatensauce, Mozzarella, pikante Salami, Chili, Basilikum.<span>Scharf · 410 g<br>Allergene: Weizen, Milch.</span>
+</div>
+</details>
+<details class="pizza">
+<summary>
+<span class="number">03</span>
+<span class="pizza-name">Quattro Formaggi<small>Vier Käse. Ein gutes Zusammenspiel.</small>
+</span>
+<span class="price">15,50 €</span>
+<span class="toggle" aria-hidden="true">+</span>
+</summary>
+<div class="ingredients">Fior di Latte, Gorgonzola, Parmesan, Taleggio und frisch gemahlener schwarzer Pfeffer.<span>Ohne Fleisch · 390 g<br>Allergene: Weizen, Milch.</span>
+</div>
+</details>
+<details class="pizza">
+<summary>
+<span class="number">04</span>
+<span class="pizza-name">Mortadella<small>Liebe Grüße aus Bologna.</small>
+</span>
+<span class="price">17,00 €</span>
+<span class="toggle" aria-hidden="true">+</span>
+</summary>
+<div class="ingredients">Cremige Stracciatella, Mortadella, Pistazien, Mozzarella, Zitronenabrieb.<span>Ohne Tomatensauce · 430 g<br>Allergene: Weizen, Milch, Pistazien.</span>
+</div>
+</details>
+<details class="pizza">
+<summary>
+<span class="number">05</span>
+<span class="pizza-name">Funghi e Tartufo<small>Erdig, aromatisch, unaufgeregt.</small>
+</span>
+<span class="price">16,50 €</span>
+<span class="toggle" aria-hidden="true">+</span>
+</summary>
+<div class="ingredients">Champignons, Austernpilze, Mozzarella, Sahnesauce, Trüffelöl, Petersilie.<span>Ohne Fleisch · 420 g<br>Allergene: Weizen, Milch.</span>
+</div>
+</details>
+<details class="pizza">
+<summary>
+<span class="number">06</span>
+<span class="pizza-name">Parma e Rucola<small>Salzig, frisch, zum Verlieben.</small>
+</span>
+<span class="price">17,50 €</span>
+<span class="toggle" aria-hidden="true">+</span>
+</summary>
+<div class="ingredients">Parmaschinken, Rucola, Tomaten, Mozzarella, Parmesanspäne, Olivenöl.<span>Schinken erst nach dem Backen · 410 g<br>Allergene: Weizen, Milch.</span>
+</div>
+</details>
+</div>
+<p class="menu-note">Pizza mag Gesellschaft. Der Rand mag Olivenöl.</p>
+</section>
+<section class="story" id="story">
+<div class="oven-image">
+<img src="oven.jpg" alt="Eine Pizza backt neben den Flammen im Holzofen" loading="lazy" width="1200" height="800">
+<span>IL FUOCO FA IL RESTO.</span>
+</div>
+<div class="story-copy">
+<span class="eyebrow">03 / EINFACH. EHRLICH. GUT.</span>
+<h2>Guter Teig<br>braucht <em>Zeit.</em>
+</h2>
+<p>Wir beginnen lange, bevor der Hunger kommt. Unser Teig ruht 48 Stunden. So wird er leicht, lebendig und voller Geschmack.</p>
+<p>Dann kommen die Hände des Pizzaiolo, etwas Mehl und die Hitze des Holzofens. In 90 Sekunden entsteht ein dünner Boden, ein luftiger Rand und dieser unverwechselbare Duft.</p>
+<div class="process">
+<div>
+<strong>48 <small>h</small>
+</strong>
+<span>Teigruhe</span>
+</div>
+<div>
+<strong>480<small>°</small>
+</strong>
+<span>im Holzofen</span>
+</div>
+<div>
+<strong>90 <small>s</small>
+</strong>
+<span>bis zum ersten Stück</span>
+</div>
+</div>
+</div>
+</section>
+<section class="visit section" id="visit">
+<span class="eyebrow">04 / A TAVOLA!</span>
+<h2>Am Tisch ist<br>immer <em>Platz.</em>
+</h2>
+<div class="visit-bottom">
+<p>Für lange Gespräche. Für noch eine Pizza.<br>Für einen Abend, der bleiben darf.</p>
+<a href="#menu" class="button light">Eine Margherita zum Start? <span>↗</span>
+</a>
+</div>
+<span class="visit-word" aria-hidden="true">BUON APPETITO!</span>
+</section>
+</main>
+<footer>
+<div class="footer-top">
+<a class="logo" href="#" aria-label="FORNO — nach oben">forno<span>®</span>
+</a>
+<p>Pizza und ein bisschen Feuer.</p>
+<a href="#" class="back-top">Nach oben ↑</a>
+</div>
+<div class="footer-bottom">
+<span>© 2026 FORNO · Unabhängiges Portfoliokonzept</span>
+<span>Fiktive Pizzeria. Keine Bestellungen möglich.</span>
+<a href="https://www.pexels.com/photo/authentic-neapolitan-pizza-with-fresh-basil-29609013/" target="_blank" rel="noopener noreferrer">Fotos: Pexels ↗</a>
+</div>
+</footer>
+</body>
+</html>
