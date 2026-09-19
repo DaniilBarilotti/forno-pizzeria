@@ -41,9 +41,12 @@ h2 em {
 }
 .menu-grid {
   display:grid;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns:minmax(0, 1fr) minmax(0, 1fr);
   column-gap:60px;
   align-items:start
+}
+.menu-column {
+  min-width:0;
 }
 .pizza {
   border-bottom:1px solid var(--line)
@@ -107,20 +110,28 @@ h2 em {
 .pizza[open] .toggle {
   transform:rotate(45deg)
 }
+.pizza[open] summary {
+  padding-bottom:18px;
+}
+.pizza[open] .pizza-name {
+  color:var(--red);
+}
 .pizza summary:hover .pizza-name {
   color:var(--red)
 }
 .ingredients {
-  padding:0 35px 25px;
+  margin:0 0 25px 30px;
+  padding:3px 18px;
+  border-left:2px solid var(--red);
   font-size:14px;
-  line-height:1.8;
-  max-width:470px
+  line-height:1.75;
+  max-width:440px
 }
 .ingredients>span {
   display:block;
   margin-top:14px;
-  color:#747367;
-  font-size:12px
+  color:#646458;
+  font-size:13px
 }
 .menu-note {
   margin:30px 0 0;
@@ -302,7 +313,8 @@ footer {
 }
 .ingredients {
   max-width:100%;
-  padding-left:30px
+  margin-left:28px;
+  padding-left:15px
 }
 .story {
   grid-template-columns:1fr
